@@ -1,0 +1,105 @@
+/* Google Fonts for typography */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tourney:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Base styles for the body element */
+body {
+    font-family: 'Roboto', Montserrat, sans-serif;
+    background: linear-gradient(45deg, #1f1b2e, #28223f); /* Gradient for a modern look */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Styling for the card container */
+.container {
+    margin: 20px;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 15px; /* Smooth edges */
+    width: 380px; /* Set card width */
+    text-align: center;
+    box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.75); /* Subtle shadow effect */
+    position: relative;
+    z-index: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for hover effect */
+}
+
+/* Hover effect for the container */
+.container:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.75); /* Enhanced shadow */
+}
+
+/* Cover photo styles */
+.cover-photo {
+    background: url(https://images.unsplash.com/photo-1540228232483-1b64a7024923?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
+    height: 120px;
+    width: 100%;
+    border-radius: 15px 15px 0 0; /* Rounded top corners */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styling for profile name */
+.profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Title styling with unique color */
+.title {
+    font-size: 16px;
+    color: #03bfbc;
+    margin: -5px 0 20px;
+}
+
+/* Bio text with ellipsis for overflow handling */
+.bio {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #d1d7e2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 90px;
+}
+
+/* General button styles */
+button {
+    margin: 10px 0 25px;
+    padding: 10px 25px;
+    font-family: Montserrat, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Message button with distinct styling */
+.msg-btn {
+    background: #03bfbc;
+    border: 1px solid #03bfbc;
+    color: #231e39;
+    margin-right: 15px;
+}
+
+/* Follow button with hover effects */
+.follow-btn {
+    background: transparent;
+    color: #02899c;
+    border: 1px solid #02899c;
+    margin-left: 15px;
+}
+
+.follow-btn:hover {
+    color: #231e39;
+    background: #03bfbc;
+    transition: 0.3s;
+}
