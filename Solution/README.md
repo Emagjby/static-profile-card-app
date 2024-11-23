@@ -39,6 +39,9 @@ This project implements a **Static Profile Card** with enhancements beyond the o
 7. **CSS Transition Effects**:
    - Buttons and icons have hover transitions for a smoother user experience.
 
+## Live Demo
+You can view the live demo of this project [**here**](https://emagjby.github.io/static-profile-card-app/).
+
 ## Instructions
 
 ### Installation
@@ -64,3 +67,7 @@ This project implements a **Static Profile Card** with enhancements beyond the o
 ## Key Notes
 - **Beyond the requirements:** This implementation includes additional interactivity (`Follow` button), design features (hover effects, cover photo), and scalable architecture (modularized components). These are not required by the project objectives but add value to the user experience and code maintainability
 - **Simplified Interaction:** While this project remains static at its core, adding interactivity (via the "Follow" toggle) demonstrates how the application can be extended.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file in the parent directory for details.
