@@ -1,4 +1,4 @@
-# Static Profile Card
+# Static Profile Card `finished`
 
 ## Difficulty: Easy
 
